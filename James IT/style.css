@@ -1,0 +1,101 @@
+@import "fonts.css";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 200px;
+    height: 200px;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.federal{
+    text-align: center;
+    font-family: fontA;
+    font-size: 11px;
+    color: rgba(8, 8, 77, 0.849);
+}
+.dept{
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    font-family: fontA;
+    font-size: 13px;
+    background-color: navy;
+    color: white;
+    padding: 10px;
+}
+.cards{
+    width: 100%;
+    padding: 20px;
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    height: auto;;
+}
+.card{
+    min-width: 320px;
+    height: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+.img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: navy;
+    padding: 3px;
+    margin-top: 10px;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.name{
+    margin-top: 20px;
+    font-family: fontE;
+    font-weight: bold;
+    font-size: 20px;
+}
+.level{
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+.qr{
+    width: 250px;
+    height: 230px;
+    margin-top: 20px;
+}
+.qr img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
